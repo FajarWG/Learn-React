@@ -1,6 +1,13 @@
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
-    <div>Ini adalah Header</div>
+    <div>
+      <Link to="/">Home</Link>
+      <Link to="/about">About</Link>
+      <Link to="/product">Product</Link>
+      <Link to="/addproduct">Add Product</Link>
+    </div>
   )
 }
 
